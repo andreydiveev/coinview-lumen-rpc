@@ -1,0 +1,19 @@
+{
+    "name": "coinview/lumen-rpc",
+    "description": "Lumen RPC server and client classes",
+    "type": "library",
+    "keywords": ["lumen","rpc","library"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "php-amqplib/thumper": "^0.5.0",
+        "admitad/api": "0.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CoinView\\LumenRpc\\": "src"
+        },
+        "files": [
+        ]
+    }
+}
